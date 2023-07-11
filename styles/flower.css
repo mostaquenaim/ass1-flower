@@ -90,13 +90,48 @@ nav img{
     text-align: left;
 }
 
+/* first order  */
+.start-shop{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.shop{
+    display: flex;
+}
+.shop-text1 {
+    padding-top: 175px;
+}
+
+.type1, .type2, .type3{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 500px;
+}
+.type1{
+    background-image: url("../images/1stshop.webp");
+    
+}
+.type2{
+    background-image: url("../images/2ndshop.webp");
+    
+}
+.type3{
+    background-image: url("../images/3rdshop.webp");
+}
 /* bonus featured flowers part  */
 .ft-flowers{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 170px;
+    margin-top: 50px;
 }
 .ft-images{
     display: flex;
