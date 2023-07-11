@@ -27,6 +27,38 @@
     font-size: 20px;
     font-weight: 700;
 }
+/* header  */
+.header-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+nav{
+    background-color: #477d1126;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 50px;
+}
+nav li:hover{
+    background-color: rgb(84, 46, 6);
+    border-radius: 10px;
+}
+nav a{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: black;
+    text-decoration: none;
+}
+nav li{
+    
+}
+nav img{
+    width: 150px;
+}
 /* banner section  */
 .banner{
     display: flex;
@@ -59,7 +91,80 @@
 }
 
 /* bonus featured flowers part  */
+.ft-flowers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 170px;
+}
+.ft-images{
+    display: flex;
+}
+.image1, .image2, .image3{
+    display: block;
+    height: 530px;
+    width: 460px;
+    border-radius: 300px 300px 0px 0px;
+    margin-right: 20px;
+}
+.image1{
+    background: #a7216226;
+}
 
+.image2{
+    background: #0597a026;
+}
+.image3{
+    background: #477d1126 ;
+}
+.image1 img{
+    padding-top: 102px;
+    padding-left: 10px;
+}
+.image2 img{
+    padding-top: 100px;
+    padding-left: 45px;
+}
+.image3 img{
+    padding-top: 58px;
+    padding-left: 30px;
+}
+.image1-name, .image2-name, .image3-name{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+.image2-name{
+    margin-top: 60px;
+}
+.ft-flowers .description{
+    width: 585px;
+    padding-left: 420px;
+}
+/* .ft-images {
+    position: relative;
+    height: 530px;
+    background: #a7216226;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .ft-images .image1,
+  .ft-images .image2,
+  .ft-images .image3 {
+    flex: 1;
+    background-color: #a7216226;
+  }
+  
+  .ft-images img {
+    display: block;
+  } */
 /* optional part  */
 
 /* hot deal part  */
@@ -67,7 +172,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: #e554731a; 
-    height: 620px;
+    height: 600px;
     align-items: center;
     margin: 128px 0px;
 }
